@@ -1,4 +1,3 @@
-let YearOfBirth = prompt('Введіть рік народження', );
-const Year = 2023;
-let Years = Year - YearOfBirth;
-alert (`Вам, ${Years}`)
+let length = prompt('Введіть довжину сторони квадрата', );
+const formula = 4 * length;
+alert (`Периметр квадрата = ${formula}`)
