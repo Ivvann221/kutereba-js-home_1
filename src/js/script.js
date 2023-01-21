@@ -1,3 +1,4 @@
-let length = prompt('Введіть радіус кола', );
-const formula = 3.14 * Math.pow(length, 2);;
-alert (`Площа кола = ${formula}`)
+let length = prompt('Введіть відстань у кілометрах між двомамістами', );
+let time= prompt('за скільки годин ви хоче дістатися', );
+const formula = length / time;
+alert (`вам потрібно рухатися зі швидкістю = ${formula} км/год`)
