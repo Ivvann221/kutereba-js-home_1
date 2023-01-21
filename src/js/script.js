@@ -1,10 +1,13 @@
-let number = prompt('Введіть трьох значне число',);
-if (number > 100 && number < 999){
-    alert(number + "-" + number.split("").reverse().join(""));
-}else{
-    alert('Введіть трьох значне число')
+let numberr = prompt('Введіть ціле число',);
+const parni = numberr % 2 == 0;
+if(parni == true){
+    const a = numberr + 3 ;
+    alert(a);
 }
 
+
+
+    
 
 
 
