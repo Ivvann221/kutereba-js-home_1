@@ -1,3 +1,9 @@
 let length = prompt('Введіть довжину сторони квадрата', );
 const formula = 4 * length;
-alert (`Периметр квадрата = ${formula}`)
+if(length < 0){
+    alert("Помилка")
+}else{
+    alert (`Периметр квадрата = ${formula}`)
+}
+
+
