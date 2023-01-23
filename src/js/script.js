@@ -1,8 +1,9 @@
-let numberr = prompt('Введіть ціле число',);
-const parni = numberr % 2 == 0;
-if(parni == true){
-    const a = numberr + 3 ;
-    alert(a);
+let number = prompt('Введіть ціле число',);
+const parnist = number % 2 == 0;
+if(parnist == true){
+   alert("Парне")
+}else{
+    alert("Непарне")
 }
 
 
