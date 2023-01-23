@@ -1,4 +1,4 @@
 let YearOfBirth = prompt('Введіть рік народження', );
-const Year = 2023;
+const Year = new Date().getFullYear();
 let Years = Year - YearOfBirth;
-alert (`Вам, ${Years}`)
+alert (`Вам, ${Years} років`)
