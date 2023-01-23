@@ -1,2 +1,2 @@
-let Name = prompt('Введіть вашу імя', );
+let Name = prompt('Введіть ваше імя', );
 alert(`Привіт, ${Name}`)
